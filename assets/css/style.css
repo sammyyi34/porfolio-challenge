@@ -118,9 +118,9 @@ h2 {
 .work h2 {
 	font-size: 50px;
 	font-weight: bold;
-    width: 30%;
+    width: 31%;
     text-align: right;
-	margin: 400px 30px 30px 30px;
+	
 }
 img{
     max-width: 70%;
@@ -212,4 +212,5 @@ h4 {
 img:hover {
     box-shadow:0 0 40px yellow;
 }
+
 
