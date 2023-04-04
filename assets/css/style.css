@@ -78,8 +78,15 @@ section {
     display: flex;
     justify-content: space-between;
 }
-/* About Me Sections */
 
+/* The verticle lines */
+h2 {
+    border-right: 3px solid #000;
+    position: relative;
+    padding-right: 20px;
+}
+
+/* About Me Sections */
 .about {
 	display: flex;
 	flex-wrap: wrap;
@@ -103,7 +110,6 @@ section {
 }
 
 /* Work Selectors*/
-
 .work {
     padding: 0; 
     
@@ -121,7 +127,7 @@ img{
     height: auto;
 }
 .image-grid {
-	display: flexbox;
+	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
     max-width: 50%;
@@ -172,32 +178,27 @@ h4 {
 }
 
 /* Contact Me Selectors */
-
 .contact {
     padding: 50px;
     margin-top: 50px;
 }
-footer section {
-    display: inline;
-}
-
-footer section h2 {
-	font-size: 36px;
+.contact h2 {
+    font-size: 50px;
 	font-weight: bold;
-	margin: 0;
-    display: inline;
+    width: 30%;
     text-align: right;
 }
 
-footer ul {
+.contact ul {
 	list-style: none;
 	padding: 0;
-    float: right;
+    display: inline-block;
+    
 }
 
-footer ul li {
+.contact ul li {
 	display: inline;
-	margin-right: 115px;
+	margin-right: 150px;
     font-size: 130%;
 }
 
@@ -206,5 +207,9 @@ footer ul li {
 	flex-wrap: wrap;
     max-width: 50%;
     text-align: left;
+}
+
+img:hover {
+    box-shadow:0 0 40px yellow;
 }
 
