@@ -74,53 +74,60 @@ main {
 	padding: 0;
 }
 
+section {
+    display: flex;
+    justify-content: space-between;
+}
 /* About Me Sections */
 
 .about {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
-	align-items: center;
 	padding: 50px;
 }
 
 .about h2 {
-	font-size: 36px;
+	font-size: 50px;
 	font-weight: bold;
 	margin: 0;
     flex-basis: 30%;
+    text-align: right;
 }
 
 .about p {
 	font-size: 24px;
 	margin: 0;
     flex-basis: 70%;
+    text-align: left;
 }
 
 /* Work Selectors*/
 
 .work {
-	padding: 50px;
+    padding: 0; 
+    
 }
 
 .work h2 {
-	font-size: 36px;
+	font-size: 50px;
 	font-weight: bold;
-	margin: 0;
+    width: 30%;
+    text-align: right;
+	margin: 400px 30px 30px 30px;
 }
 img{
     max-width: 70%;
     height: auto;
 }
 .image-grid {
-	display: flex;
+	display: flexbox;
 	flex-wrap: wrap;
 	justify-content: space-between;
     max-width: 50%;
-    float: ;
 }
 
-.image-grid a {
+a {
 	flex-basis: 60%;
 	margin-bottom: 5px;
     position: relative;
@@ -167,25 +174,37 @@ h4 {
 /* Contact Me Selectors */
 
 .contact {
-	padding: 50px;
+    padding: 50px;
+    margin-top: 50px;
+}
+footer section {
+    display: inline;
 }
 
-footer h2 {
+footer section h2 {
 	font-size: 36px;
 	font-weight: bold;
 	margin: 0;
     display: inline;
+    text-align: right;
 }
 
 footer ul {
 	list-style: none;
 	padding: 0;
-	margin: 0;
     float: right;
 }
 
 footer ul li {
 	display: inline;
-	margin-right: 20px;
+	margin-right: 115px;
     font-size: 130%;
 }
+
+.right-grid{
+    display: flex;
+	flex-wrap: wrap;
+    max-width: 50%;
+    text-align: left;
+}
+
