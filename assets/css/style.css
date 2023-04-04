@@ -1,0 +1,191 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column; 
+}
+
+/* Header and Navbar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+    background-color: #282828;
+}
+
+h1 {
+    font-size: 50px;
+    display: inline-block;
+    background-color: lightblue;
+    padding: 2px 25px 2px 70px;
+    margin-left: -20px;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    justify-content: space-between;
+    padding: 10px 15px;
+}
+nav ul li a {
+    font-weight: bold;
+    font-size: 150%;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 8px;
+}
+
+/* Image under nav bar */
+.hero {
+    height: 300px;
+    width: 100%;
+    background-image: url('../images/power.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.container {
+    display: block;
+    position: relative;
+    text-align: center;
+}
+
+
+.subtitle {
+    position: absolute;
+    top: 200px;
+    right: 16px;
+    background-color: lightblue;
+    color: black;
+    font-size: 30px;
+    padding: 10px;
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+main {
+	margin: 0;
+	padding: 0;
+}
+
+/* About Me Sections */
+
+.about {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	padding: 50px;
+}
+
+.about h2 {
+	font-size: 36px;
+	font-weight: bold;
+	margin: 0;
+    flex-basis: 30%;
+}
+
+.about p {
+	font-size: 24px;
+	margin: 0;
+    flex-basis: 70%;
+}
+
+/* Work Selectors*/
+
+.work {
+	padding: 50px;
+}
+
+.work h2 {
+	font-size: 36px;
+	font-weight: bold;
+	margin: 0;
+}
+img{
+    max-width: 70%;
+    height: auto;
+}
+.image-grid {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+    max-width: 50%;
+    float: ;
+}
+
+.image-grid a {
+	flex-basis: 60%;
+	margin-bottom: 5px;
+    position: relative;
+}
+
+.surf-report {
+	flex-basis: 100%;
+	margin-bottom: 5px;
+    max-width: 200%;
+    margin-left: auto;
+}
+
+.image-banner{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+h3 {
+    position: absolute;
+    bottom: 35px;
+    left: 0;
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    background-color: blueviolet;
+    padding: 10px; 
+}
+
+h4 {
+    position: absolute;
+    bottom: 8px;
+    left: 0;
+    margin: 0;
+    font-size: 18px;
+    color: white;
+    background-color: blueviolet;
+    padding: 5px 10px;
+
+}
+
+/* Contact Me Selectors */
+
+.contact {
+	padding: 50px;
+}
+
+footer h2 {
+	font-size: 36px;
+	font-weight: bold;
+	margin: 0;
+    display: inline;
+}
+
+footer ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+    float: right;
+}
+
+footer ul li {
+	display: inline;
+	margin-right: 20px;
+    font-size: 130%;
+}
